@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.satman.satya.smsotpautoverify.PhoneNumberActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We need your mobile number to login"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginTop="40dp"
+
+        />
+
+
+    <LinearLayout
+        android:id="@+id/llphone"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="+91"/>
+
+        <EditText
+            android:id="@+id/etphone"
+            android:hint="10 digit mobile number"
+            android:gravity="center"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/llphone"
+
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tvnextphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:onClick="textclicked"
+            android:textSize="24sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
