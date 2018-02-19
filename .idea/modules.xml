@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SmsOtpAutoVerify.iml" filepath="$PROJECT_DIR$/SmsOtpAutoVerify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SmsOtpAutoVerify.iml" filepath="$PROJECT_DIR$/.idea/SmsOtpAutoVerify.iml" />
+      <module fileurl="file://E:\test\SmsOtpAutoVerify\SmsOtpAutoVerify.iml" filepath="E:\test\SmsOtpAutoVerify\SmsOtpAutoVerify.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\test\SmsOtpAutoVerify\app\app.iml" filepath="E:\test\SmsOtpAutoVerify\app\app.iml" />
     </modules>
   </component>
 </project>
